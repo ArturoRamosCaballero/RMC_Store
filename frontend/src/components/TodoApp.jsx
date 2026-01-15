@@ -1,14 +1,20 @@
-function TodoApp({note,tituloApp,subtituloApp}) {
-    console.log(subtituloApp);
-    console.log(tituloApp);
-    
-    return (
+import { useState } from "react";
+
+function TodoApp() {
+  const [notes, setNotes] = useState([
+    {
+      id: crypto.randomUUID(),
+      text: "Soy nota 1",
+    },
+    {
+      id: crypto.randomUUID(),
+      text: "Soy nota 2",
+    },
+  ]);
+
+  return (
     <>
-      <h1>App de notas</h1>
-      <ul>
-        <li>{note[0].text}</li>
-        <li>{note[1].text}</li>
-      </ul>
+      <h1>Notes</h1>
     </>
   );
 }

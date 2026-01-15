@@ -8,6 +8,20 @@ body {
   background-color: white;
   color: black;
   font-family: system-ui;
+  display: grid;
+  place-content: center;
+  height: 100dvh;
 }
+
+button{
+  border: 0;
+  padding: 10px;
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
 
 
