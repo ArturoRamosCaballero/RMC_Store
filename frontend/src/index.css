@@ -8,18 +8,27 @@ body {
   background-color: white;
   color: black;
   font-family: system-ui;
-  display: grid;
-  place-content: center;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100dvh;
 }
 
 button{
   border: 0;
   padding: 10px;
-  width: 30px;
+  width: 40px;
   margin-right: 10px;
   cursor: pointer;
 }
+
+.containerTodoApp {
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto 0 auto;
+}
+
 
 
 

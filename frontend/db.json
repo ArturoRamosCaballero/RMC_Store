@@ -1,0 +1,8 @@
+{
+  "notes": [
+    { "id": "1", "text": "Aprender react", "completed": false },
+    { "id": "2", "text": "Estudiar para el examen", "completed": true },
+    { "id": "3", "text": "Hacer ejercicio", "completed": false },
+    { "id": "4", "text": "Hacer web", "completed": false }
+  ]
+}

@@ -1,22 +1,9 @@
-import "./App.css";
 import TodoApp from "./components/TodoApp";
-
+import "./index.css";
 function App() {
-
-
-  // const note = [
-  //  
-  // ];
-
-  // const titulosApp ={
-  //   tituloApp: "soy titulo",
-  //   subtituloApp: "Soy subtitulo"
-  // }
-  // {...titulosApp}
 
   return (
     <section className="containerTodoApp">
-      <TodoApp></TodoApp> {/* componente hijo*/}
       <TodoApp></TodoApp> {/* componente hijo*/}
     </section>
   );
