@@ -1,4 +1,4 @@
-# RMC_Store
+# Arcly
 
 E-commerce en desarrollo  
 Proyecto personal Full Stack
